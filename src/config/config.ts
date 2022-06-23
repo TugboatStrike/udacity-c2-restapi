@@ -6,7 +6,7 @@ export const config = {
     "host": "udagrambdmdev.csvhsefgserk.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
     "aws_region": "us-east-1",
-    "aws_profile": "udacity",
+    "aws_profile": "default",
     "aws_media_bucket": "udagram924979669534"
   },
   "jwt": {
