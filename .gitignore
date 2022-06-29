@@ -37,6 +37,15 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 node_modules
 venv/
+
+
+
+
+
+
+
+
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

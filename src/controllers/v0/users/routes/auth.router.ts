@@ -2,7 +2,9 @@ import { Router, Request, Response } from 'express';
 
 import { User } from '../models/User';
 
-import * as bcrypt from 'bcrypt';
+//import * as bcrypt from 'bcrypt';
+//import * as bcrypt from 'bcryptjs'; // this is supposed to be direct replace without depe
+import * as bcrypt from 'bcrypt'; // because @types/bcrypt is installed this syntax used
 import * as jwt from 'jsonwebtoken';
 import { NextFunction } from 'connect';
 
